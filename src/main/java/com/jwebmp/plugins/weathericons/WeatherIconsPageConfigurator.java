@@ -7,7 +7,7 @@ import com.jwebmp.core.services.IPageConfigurator;
 import javax.validation.constraints.NotNull;
 
 public class WeatherIconsPageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<WeatherIconsPageConfigurator>
 {
 	/**
 	 * Field reference
