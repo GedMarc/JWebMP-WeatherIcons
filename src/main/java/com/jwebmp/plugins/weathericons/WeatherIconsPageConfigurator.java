@@ -64,7 +64,7 @@ public class WeatherIconsPageConfigurator
 	@Override
 	public @NotNull Page<?> configure(Page<?> page)
 	{
-		if (!page.isConfigured())
+		if (!page.isConfigured() && enabled())
 		{
 			page.addCssReference(WeatherIconsPageConfigurator.reference);
 		}
