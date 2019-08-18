@@ -1,6 +1,7 @@
 package com.jwebmp.plugins.weathericons;
 
 import com.jwebmp.core.base.interfaces.ICssClassName;
+import com.jwebmp.core.base.interfaces.IIcon;
 
 import static com.jwebmp.core.utilities.StaticStrings.*;
 
@@ -1148,4 +1149,6 @@ public enum WeatherIcon
 		return "wi-" + name().toLowerCase()
 		                     .replace(CHAR_UNDERSCORE, CHAR_DASH);
 	}
+
+
 }

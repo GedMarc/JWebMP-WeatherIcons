@@ -1,6 +1,8 @@
 package com.jwebmp.plugins.weathericons;
 
+import com.jwebmp.core.base.ComponentHierarchyBase;
 import com.jwebmp.core.base.html.Italic;
+import com.jwebmp.core.base.interfaces.IIcon;
 
 import javax.validation.constraints.NotNull;
 
@@ -13,6 +15,7 @@ import javax.validation.constraints.NotNull;
 @SuppressWarnings("MissingClassJavaDoc")
 public class WeatherIcons<J extends WeatherIcons<J>>
 		extends Italic<J>
+		implements IIcon<J>
 {
 	/**
 	 * Field icon
@@ -71,5 +74,17 @@ public class WeatherIcons<J extends WeatherIcons<J>>
 	{
 		this.icon = icon;
 		return (J) this;
+	}
+
+	@Override
+	public String getClassName()
+	{
+		return icon.toString();
+	}
+
+	@Override
+	public ComponentHierarchyBase getIconComponent()
+	{
+		return this;
 	}
 }
