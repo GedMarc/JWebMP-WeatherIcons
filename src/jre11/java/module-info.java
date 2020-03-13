@@ -8,5 +8,5 @@ module com.jwebmp.plugins.weathericons {
 	provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.weathericons.WeatherIconsPageConfigurator;
 	provides com.guicedee.guicedinjection.interfaces.IGuiceScanModuleExclusions with com.jwebmp.plugins.weathericons.implementations.WeatherExclusionsModule;
 
-	opens com.jwebmp.plugins.weathericons to com.google.guice, com.jwebmp.core;
+	opens com.jwebmp.plugins.weathericons to  com.jwebmp.core;
 }
