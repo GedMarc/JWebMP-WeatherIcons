@@ -3,6 +3,8 @@ package com.jwebmp.plugins.weathericons;
 import com.jwebmp.core.base.interfaces.ICssClassName;
 import com.jwebmp.core.base.interfaces.IIcon;
 
+import static com.guicedee.guicedinjection.json.StaticStrings.CHAR_DASH;
+import static com.guicedee.guicedinjection.json.StaticStrings.CHAR_UNDERSCORE;
 import static com.jwebmp.core.utilities.StaticStrings.*;
 
 public enum WeatherIcon
