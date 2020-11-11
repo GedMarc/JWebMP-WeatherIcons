@@ -4,7 +4,7 @@ import com.jwebmp.core.Page;
 import com.jwebmp.core.base.references.CSSReference;
 import com.jwebmp.core.services.IPageConfigurator;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 public class WeatherIconsPageConfigurator
 		implements IPageConfigurator<WeatherIconsPageConfigurator>

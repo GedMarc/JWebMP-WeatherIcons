@@ -4,7 +4,7 @@ import com.jwebmp.core.base.ComponentHierarchyBase;
 import com.jwebmp.core.base.html.Italic;
 import com.jwebmp.core.base.interfaces.IIcon;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 /**
  * A weather icon italic
