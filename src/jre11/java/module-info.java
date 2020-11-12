@@ -1,6 +1,6 @@
 module com.jwebmp.plugins.weathericons {
 	requires com.jwebmp.core;
-	requires java.validation;
+	requires jakarta.validation;
 	requires com.guicedee.guicedinjection;
 
 	exports com.jwebmp.plugins.weathericons;
