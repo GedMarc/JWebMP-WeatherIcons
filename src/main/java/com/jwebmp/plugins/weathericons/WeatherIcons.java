@@ -15,7 +15,7 @@ import jakarta.validation.constraints.NotNull;
 @SuppressWarnings("MissingClassJavaDoc")
 public class WeatherIcons<J extends WeatherIcons<J>>
 		extends Italic<J>
-		implements IIcon<J>
+		implements IIcon<com.jwebmp.core.base.interfaces.IComponentHierarchyBase, J>
 {
 	/**
 	 * Field icon
